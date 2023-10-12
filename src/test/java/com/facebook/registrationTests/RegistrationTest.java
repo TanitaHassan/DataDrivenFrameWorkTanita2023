@@ -26,6 +26,14 @@ public class RegistrationTest extends BaseTest {
 		exReader = new ExcelReader(file, sheetName);
 		String fName = exReader.getStringCellValue(1, 0);
 		regPage.firstNameField(fName);
+		String lName= exReader.getStringCellValue(1, 1);
+		regPage.lNmae(lName);
+		String email= exReader.getStringCellValue(1, 3);
+		regPage.email(email);
+		String verifyEmail= exReader.getStringCellValue(1, 3);
+		regPage.reEmail(verifyEmail);
+		String newPass= exReader.getStringCellValue(1, 4);
+		regPage.newPassword(newPass);
 	}
 
 	@AfterMethod

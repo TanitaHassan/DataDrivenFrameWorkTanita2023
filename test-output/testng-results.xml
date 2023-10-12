@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-08T14:38:28 EDT" name="Default suite" finished-at="2023-10-08T14:38:37 EDT" duration-ms="8714">
+  <suite started-at="2023-10-12T01:36:44 EDT" name="Default suite" finished-at="2023-10-12T01:36:53 EDT" duration-ms="8371">
     <groups>
     </groups>
-    <test started-at="2023-10-08T14:38:28 EDT" name="Default test" finished-at="2023-10-08T14:38:37 EDT" duration-ms="8714">
+    <test started-at="2023-10-12T01:36:44 EDT" name="Default test" finished-at="2023-10-12T01:36:53 EDT" duration-ms="8371">
       <class name="com.facebook.registrationTests.RegistrationTest">
-        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook.registrationTests.RegistrationTest@2b71e916]" started-at="2023-10-08T14:38:28 EDT" name="openFacebook" finished-at="2023-10-08T14:38:35 EDT" duration-ms="6084" status="PASS">
+        <test-method is-config="true" signature="openFacebook()[pri:0, instance:com.facebook.registrationTests.RegistrationTest@2b71e916]" started-at="2023-10-12T01:36:44 EDT" name="openFacebook" finished-at="2023-10-12T01:36:49 EDT" duration-ms="4608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openFacebook -->
-        <test-method signature="createRegistrationTest()[pri:0, instance:com.facebook.registrationTests.RegistrationTest@2b71e916]" started-at="2023-10-08T14:38:35 EDT" name="createRegistrationTest" finished-at="2023-10-08T14:38:36 EDT" duration-ms="1889" status="PASS">
+        <test-method signature="createRegistrationTest()[pri:0, instance:com.facebook.registrationTests.RegistrationTest@2b71e916]" started-at="2023-10-12T01:36:49 EDT" name="createRegistrationTest" finished-at="2023-10-12T01:36:52 EDT" duration-ms="3248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createRegistrationTest -->
-        <test-method is-config="true" signature="closeFacebook()[pri:0, instance:com.facebook.registrationTests.RegistrationTest@2b71e916]" started-at="2023-10-08T14:38:36 EDT" name="closeFacebook" finished-at="2023-10-08T14:38:37 EDT" duration-ms="672" status="PASS">
+        <test-method is-config="true" signature="closeFacebook()[pri:0, instance:com.facebook.registrationTests.RegistrationTest@2b71e916]" started-at="2023-10-12T01:36:52 EDT" name="closeFacebook" finished-at="2023-10-12T01:36:53 EDT" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFacebook -->

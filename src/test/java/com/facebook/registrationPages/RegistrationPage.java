@@ -30,12 +30,29 @@ public WebElement firstNameField(String enterFirstName) {
 	firstName.sendKeys(enterFirstName);
 	return firstName;
 }
-
-
-
-
-
-
+@FindBy(how=How.NAME,using="lastname")public WebElement lastName;
+public WebElement lNmae(String enterNameLast) {
+	lastName.sendKeys(enterNameLast);
+	return lastName;
+	
+}
+@FindBy(how=How.NAME,using="reg_email__")public WebElement email;
+public WebElement email(String enterEmail) {
+	email.sendKeys(enterEmail);
+	return email;
+	
+}
+@FindBy(how=How.NAME,using="reg_email_confirmation__")public WebElement verifyEmail;
+public WebElement reEmail(String reEnterEmail) {
+	verifyEmail.sendKeys(reEnterEmail);
+	return verifyEmail;
+	
+}
+@FindBy(how=How.ID,using="password_step_input")private WebElement newPass;
+public WebElement newPassword(String enterNewPass) {
+	newPass.sendKeys(enterNewPass);
+	return newPass;
+}
 
 
 }
