@@ -7,7 +7,7 @@ import java.util.Properties;
 public class PropertiesReader {
 	Properties prop;
 
-	public PropertiesReader() { //make a constructor by own with same class name
+	public PropertiesReader() {
 		prop = new Properties();
 		String propertyFile = "src/test/resources/test.properties";
 			FileInputStream fis;

@@ -1,5 +1,6 @@
 package com.facebook.loginTests;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -18,7 +19,7 @@ public class LoginFunctionalTest extends BaseTest{
 		
 	}
 		
-	@Test(priority=0)
+	@Test(priority=0, groups="Smoke")
 	public void userNameTest() {
 		lp= new LoginPage(driver);
 		rp=new PropertiesReader();
@@ -31,7 +32,7 @@ public class LoginFunctionalTest extends BaseTest{
 	}
 	@Test(priority=2)
 	public void loginButtonTest() {
-		lp.logingButton();
+		lp.logingButton();		
 	}
 	
 	@AfterTest

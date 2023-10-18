@@ -18,7 +18,7 @@ public class BaseTest {
 	PropertiesReader reader;
 	
 	
-	public void openApp() {
+	public WebDriver openApp() {
       reader= new PropertiesReader();
       String browser= reader.readBrowser();
 		if (browser.equalsIgnoreCase("Chrome")) {
@@ -44,6 +44,7 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//String url=reader.getQaUrl();
 		driver.get(reader.getQaUrl());
+		return driver;
 
 	}
 
